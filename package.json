@@ -1,0 +1,24 @@
+{
+  "name": "cebi-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./connection-test.js && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.16.13",
+    "next": "11.1.2",
+    "pg-promise": "^10.11.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
